@@ -64,7 +64,7 @@ workflows:
               only:
                 - main
       - deploy-dev:
-          context: aws_lab06
+          context: aws_lab10
           requires:
             - build-and-test
           filters:
